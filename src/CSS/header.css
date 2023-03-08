@@ -1,0 +1,181 @@
+@media only screen and (max-width:47.9rem) {
+
+    .header_wrapper{
+        height: 44.25rem;
+    }
+
+    .header_img_section{
+        height: 12.5rem;
+        width: auto;
+        background-image: url(../assets/mobile/image-hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .header_text_section{
+        height: 31.75rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 3.5rem 1.5rem;
+    }
+
+    .header_title{
+        font-size: 2.5rem;
+    }
+
+    .header_description{
+        font-size: 15px;
+        line-height: 1.5625rem;
+    }
+
+    .header_btn{
+        width: 11.0625rem;
+        height: 4.5rem;
+        background-color: var(--red);
+        color: var(--white);
+        text-transform: capitalize;
+        font-family: "Commission", sans-serif;
+        font-size: 1.125rem;
+        font-weight: 800;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (min-width:48rem){
+
+    .header_wrapper{
+        height: 37.875rem;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .header_img_section{
+        height: 100%;
+        width: 100%;
+        background-image: url(../assets/tablet/image-hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .header_text_section{
+        height: 100%;
+        width: calc(100vw - 21.625rem);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 3.5rem 1.5rem;
+        position: relative;
+    }
+
+    .header_title{
+        font-size: 3.5rem;
+        z-index: 10;
+        width: 24.875rem;
+        position: absolute;
+        top: 4.8125rem;
+    }
+
+    .header_description{
+        font-size: 0.9375rem;
+        line-height: 1.5625rem;
+        width: 24.875rem;
+        z-index: 10;
+        position: absolute;
+        top: calc(277px + 77px);
+    }
+
+    .header_btn{
+        width: 11.0625rem;
+        height: 4.5rem;
+        background-color: var(--red);
+        color: var(--white);
+        text-transform: capitalize;
+        font-family: "Commission", sans-serif;
+        font-size: 1.125rem;
+        font-weight: 800;
+        border: none;
+        outline: none;
+        top: 30.8125rem;
+        position: absolute;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width:68.75rem){
+
+    .header_wrapper{
+        height: 50rem;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .header_img_section{
+        height: 100%;
+        width: 55.9375rem;
+        background-image: url(../assets/desktop/image-hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .header_text_section{
+        width: 50%;
+        padding: 3.5rem 0rem;
+    }
+
+    .header_title{
+        width: 34.5rem;
+        font-size: 5rem;
+        top: 7.625rem;
+        margin-left: 10.3125rem;
+    }
+
+    .header_description{
+        font-size: 1.125rem;
+        line-height: 2rem;
+        width: 33.75rem;
+        top: 27.625rem;
+        margin-left: 10.3125rem;
+    }
+
+    .header_btn{
+        width: 11.0625rem;
+        height: 4.5rem;
+        background-color: var(--red);
+        color: var(--white);
+        text-transform: capitalize;
+        font-family: "Commission", sans-serif;
+        font-size: 1.125rem;
+        font-weight: 800;
+        border: none;
+        outline: none;
+        top: 35.5rem;
+        position: absolute;
+        margin-left: 10.3125rem;
+        cursor: pointer;
+        transition: ease-in-out 0.2s;
+    }
+
+    .header_btn:hover{
+        background-color: var(--red-hover);
+        transition: ease-in-out 0.2s;
+    }
+
+}

@@ -1,4 +1,4 @@
-@media only screen and (max-width:50rem){
+@media only screen and (max-width:47.9rem){
 
     nav{
         height: 6.875rem;
@@ -83,7 +83,7 @@
 
 }
 
-@media only screen and (min-width:50rem){
+@media only screen and (min-width:48rem){
 
     .hamburger_btn{
         display: none;
@@ -99,7 +99,7 @@
     
     .nav_white{
         height: 100%;
-        width: 100%;
+        width: calc(100vw - 20.625rem);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -157,6 +157,10 @@
     .hamburger_btn{
         display: none;
     }
+
+    .nav_logo_img{
+        padding-left: 10.3125rem;
+    }
     
     .nav_white{
         height: 100%;
@@ -164,7 +168,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 4.3125rem;
+        padding: 0rem;
     }
     
     .nav_red_inactive{
