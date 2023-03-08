@@ -1,0 +1,390 @@
+@media only screen and (max-width:47.9rem) {
+
+    .strategic_section{
+        height: 36.0625rem;
+        background-color: var(--bg-black);
+        position: relative;
+    }
+
+    .strategic_img_container{
+        background-image: url(../assets/mobile/image-strategic.jpg);
+        height: 12.5rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .strategic_red_line{
+        width: 3.9375rem;
+        height: 1.8125rem;
+        position: absolute;
+        margin-left: 1.5rem;
+        top: 11.5rem;
+    }
+
+    .strategic_text_container{
+        height: 23.5625rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 1.5rem;
+        padding: 4.5rem 0rem;
+    }
+
+    .strategic_title,
+    .strategic_red_title{
+        font-size: 2rem;
+        color: var(--white);
+    }
+
+    .strategic_red_title{
+       color: var(--red);
+    }
+
+    .strategic_description{
+        color: var(--white);
+        font-size: 0.9375rem;
+        line-height: 1.5625rem;
+    }
+
+    .strategic_link{
+        color: var(--red);
+        font-weight: 800;
+        font-size: 0.9375rem;
+        text-decoration: none;
+        border-bottom: 2px solid var(--red);
+        padding-bottom: 0.1875rem;
+    }
+
+    .strategic_nums_section{
+        height: 57.375rem;
+    }
+
+    .strategic_nums_left{
+        display: none;
+    }
+
+    .strategic_nums_right{
+        height: 100%;
+        color: var(--white);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: var(--red);
+        padding: 6rem 1.5rem;
+    }
+
+    .strategic_nums_right_one,
+    .strategic_nums_right_two,
+    .strategic_nums_right_three{
+        height: 9.9375rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .strategic_nums_right_one_num,
+    .strategic_nums_right_two_num,
+    .strategic_nums_right_three_num{
+        position: absolute;
+        font-size: 5rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .strategic_nums_right_one_title,
+    .strategic_nums_right_two_title,
+    .strategic_nums_right_three_title{
+        font-size: 0.9375rem;
+        padding: 3.5rem 1rem;
+    }
+
+    .strategic_nums_right_one_description,
+    .strategic_nums_right_two_description,
+    .strategic_nums_right_three_description{
+        font-size: 0.9375rem;
+        margin-top: -2rem;
+        padding: 0rem 1rem;
+        width: 20rem;
+        line-height: 1.5625rem;
+    }
+
+}
+
+@media only screen and (min-width:48rem){
+
+    .strategic_section{
+        height: 41.0625rem;
+        background-color: var(--bg-black);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+    }
+
+    .strategic_img_container{
+        background-image: url(../assets/tablet/image-strategic.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+    }
+
+    .strategic_red_line{
+        width: 3.9375rem;
+        height: 1.8125rem;
+        position: absolute;
+        top: -1rem;
+        left: 43%;
+    }
+
+    .strategic_text_container{
+        width: 50%;
+        height: 100%;
+        padding: 7.55rem;
+        padding-left: 5rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .strategic_red_line{
+        width: 3.9375rem;
+        height: 1.8125rem;
+        position: absolute;
+        margin-left: 1.5rem;
+        top: 11.5rem;
+    }
+
+    .strategic_title{
+        font-size: 2rem;
+        width: 8.8125rem;
+        margin-bottom: 2rem;
+        color: var(--white);
+    }
+
+    .strategic_red_title{
+        color: var(--red);
+    }
+
+    .strategic_description{
+        font-size: 0.9375rem;
+        color: var(--white);
+        line-height: 1.5625rem;
+        margin-bottom: 2rem;
+        width: 17.5625rem;
+    }
+
+    .strategic_link{
+        color: var(--red);
+        font-weight: 800;
+        font-size: 0.9375rem;
+        text-decoration: none;
+        border-bottom: 2px solid var(--red);
+        padding-bottom: 0.1875rem;
+    }
+
+    .strategic_nums_right_title{
+        display: none;
+    }
+
+    .strategic_nums_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 49.8125rem;
+        margin-top: -8rem;
+        z-index: 10;
+        position: absolute;
+    }
+
+    .strategic_nums_left_title{
+        font-size: 2rem;
+        margin-left: 2.4375rem;
+        height: 100%;
+    }
+
+    .strategic_nums_right{
+        background-color: var(--red);
+        height: 100%;
+        width: 100%;
+        color: var(--white);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 7.5rem 4rem;
+
+    }
+
+    .strategic_nums_right_one,
+    .strategic_nums_right_two,
+    .strategic_nums_right_three{
+        height: 9.9375rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .strategic_nums_right_one_num,
+    .strategic_nums_right_two_num,
+    .strategic_nums_right_three_num{
+        position: absolute;
+        font-size: 5rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .strategic_nums_right_one_title,
+    .strategic_nums_right_two_title,
+    .strategic_nums_right_three_title{
+        font-size: 0.9375rem;
+        padding: 3.5rem 1rem;
+    }
+
+    .strategic_nums_right_one_description,
+    .strategic_nums_right_two_description,
+    .strategic_nums_right_three_description{
+        font-size: 0.9375rem;
+        margin-top: -2rem;
+        padding: 0rem 1rem;
+        width: 20rem;
+        line-height: 1.5625rem;
+    }
+
+}
+
+@media only screen and (min-width:68.75rem){
+
+    .strategic_section{
+        height: 61.5rem;
+    }
+
+    .strategic_img_container{
+        background-image: url(../assets/desktop/image-strategic.jpg);
+    }
+
+    .strategic_red_line{
+        width: 3.9375rem;
+        height: 1.8125rem;
+        position: absolute;
+        top: -1rem;
+        left: 43%;
+    }
+
+    .strategic_text_container{
+        width: 50%;
+        height: 100%;
+        padding: 7.5rem;
+        padding-left: 9.625rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .strategic_red_line{
+        width: 8.4375rem;
+        height: 3.8125rem;
+        position: absolute;
+        margin-left: 1.5rem;
+        top: 11.5rem;
+    }
+
+    .strategic_title{
+        font-size: 3.5rem;
+        width: 15.875rem;
+        margin-bottom: 2.6875rem;
+    }
+
+    .strategic_description{
+        font-size: 1.125rem;
+        line-height: 2rem;
+        margin-bottom: 2.6875rem;
+        width: 27.8125rem;
+    }
+
+    .strategic_link{
+        font-size: 1.125rem;
+        transition: ease-in-out 0.2s;
+    }
+
+    .strategic_link:hover{
+        color: var(--red-hover);
+        transition: ease-in-out 0.2s;
+    }
+
+    .strategic_nums_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 68.75rem;
+        margin-top: -8rem;
+        z-index: 10;
+        position: absolute;
+        right: 0;
+    }
+
+    .strategic_nums_left{
+        position: relative;
+    }
+
+    .strategic_nums_left_title{
+        position: absolute;
+        width: 33.75rem;
+        font-size: 3.5rem;
+        margin-left: -23rem;
+    }
+
+    .strategic_nums_right{
+        background-color: var(--red);
+        height: 100%;
+        width: 55.9375rem;
+        color: var(--white);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 7.5rem 17.8125rem;
+        
+    }
+
+    .strategic_nums_right_one,
+    .strategic_nums_right_two,
+    .strategic_nums_right_three{
+        height: 12.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .strategic_nums_right_one_num,
+    .strategic_nums_right_two_num,
+    .strategic_nums_right_three_num{
+        position: absolute;
+        font-size: 5rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .strategic_nums_right_one_title,
+    .strategic_nums_right_two_title,
+    .strategic_nums_right_three_title{
+        font-size: 1.25rem;
+    }
+
+    .strategic_nums_right_one_description,
+    .strategic_nums_right_two_description,
+    .strategic_nums_right_three_description{
+        font-size: 1.125rem;
+        margin-top: -2rem;
+        line-height: 2rem;
+        width: 27.8125rem;
+    }
+
+}

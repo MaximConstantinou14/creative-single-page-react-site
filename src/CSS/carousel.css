@@ -1,0 +1,216 @@
+@media only screen and (max-width:47.9rem) {
+
+    .white_line_icon{
+        display: none;
+    }
+
+    .carousel_container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       height: 42.25rem;
+    }
+
+    .carousel_left{
+        height: 25.25rem;
+        position: relative;
+    }
+
+    .img_overlay{
+        height: 25.25rem;
+        width: 100%;
+        position: absolute;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);;
+        top: 0rem;
+        z-index: 10;
+    }
+
+    .img_text_container{
+        color: var(--white);
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        z-index: 11;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .img_title{
+        font-size: 0.9375rem;
+    }
+
+    .project_date{
+        font-size: 0.9375rem;
+    }
+
+    .carousel_img{
+        height: 25.25rem;
+        width: 100vw;
+        object-fit: cover;
+        z-index: 5;
+    }
+
+    .carousel_right{
+        background-color: var(--bg-black);
+        height: 17rem;
+        width: 100%;
+        padding: 4rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .carousel_right_title{
+        font-size: 2rem;
+        color: var(--white);
+    }
+
+    .carousel_btns{
+        width: 6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .carousel_btn_left,
+    .carousel_btn_right{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (min-width:48rem){
+
+    .white_line_icon{
+        display: block;
+        position: absolute;
+        top: 9rem;
+        z-index: 20;
+        height: 1.7825rem;
+        width: auto;
+        left: 22.3rem;
+    }
+
+    .carousel_container{
+        margin-top: 41.8125rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        position: relative;
+    }
+
+    .carousel_left{
+        height: 28.05rem;
+        width: calc(100vw - 21rem);
+    }
+
+    .carousel_right{
+        height: 22rem;
+        width: 24.3125rem;
+        background-color: var(--bg-black);
+        top: 0;
+        left: 0;
+        z-index: 15;
+        position: absolute;
+        padding: 6rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        color: var(--white);
+    }
+
+    .img_overlay{
+        height: 100%;
+        width: calc(100vw - 21rem);
+        position: absolute;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);;
+        top: 0rem;
+        z-index: 10;
+    }
+
+    .carousel_img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .img_text_container{
+        color: var(--white);
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+        z-index: 11;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .img_title{
+        font-size: 0.9375rem;
+    }
+
+    .project_date{
+        font-size: 0.9375rem;
+    }
+
+    .carousel_btns{
+        width: 6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .carousel_btn_left,
+    .carousel_btn_right{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (min-width:68.75rem){
+
+    .white_line_icon{
+        top: 15rem;
+        height: 3.75rem;
+        left: 41.3rem;
+    }
+
+    .carousel_container{
+        margin-top: 60.73rem;
+    }
+
+    .carousel_left{
+        height: 45.5rem;
+        width: 55.9375rem;
+    }
+
+    .carousel_right{
+        height: 33rem;
+        width: 45.9375rem;
+        padding: 10rem 7rem;
+    }
+
+    .img_overlay{
+        height: 100%;
+        width: 55.9375rem;
+    }
+
+    .carousel_right_title{
+        font-size: 3.5rem;
+        width: 27.1875rem;
+    }
+
+}
